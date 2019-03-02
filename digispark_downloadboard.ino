@@ -1,4 +1,4 @@
-include "DigiKeyboard.h"
+#include "DigiKeyboard.h"
 #define MOD_SHIFT_LEFT    
 #define MOD_ALT_LEFT  
 void setup() {
