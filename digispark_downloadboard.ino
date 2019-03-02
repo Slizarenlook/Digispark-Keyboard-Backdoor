@@ -1,6 +1,6 @@
 #include "DigiKeyboard.h"
-#define MOD_SHIFT_LEFT    
-#define MOD_ALT_LEFT  
+#define MOD_SHIFT_LEFT  226
+#define MOD_ALT_LEFT  A0
 void setup() {
   // put your setup code here, to run once:
 DigiKeyboard.delay(1000);
