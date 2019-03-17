@@ -6,7 +6,7 @@ void setup() {
 DigiKeyboard.delay(1000);
 DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT); 
 DigiKeyboard.delay(1000);
-DigiKeyboard.print(F("cmd"));
+DigiKeyboard.print(F("C:\Windows\System32\cmd.exe"));
 DigiKeyboard.delay(1000);
 DigiKeyboard.sendKeyStroke(KEY_ENTER);
 DigiKeyboard.delay(1000);
