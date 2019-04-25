@@ -1,5 +1,4 @@
 #include "DigiKeyboard.h"
-#define KEY_R 21
 void setup() {
   // put your setup code here, to run once:
 
