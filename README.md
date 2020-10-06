@@ -1,2 +1,2 @@
 # Digispark-Keyboard-Backdoor
-Using this code you can downnload everything you need using digispark and console. 
+This is a code for a digispark, that downloads and launches any programm from the link, that must be pasted in the code.
